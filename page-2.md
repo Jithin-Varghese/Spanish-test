@@ -1,1 +1,12 @@
+# Modernizando el análisis de datos con el laboratorio práctico de SQL Server 2019 paso a paso  
+## Resumen y objetivos de aprendizaje
+Wide World Importers (WWI) tiene una gran cantidad de tiendas en línea para diversas ofertas de productos, incluidos los catálogos de productos tradicionales ofrecidos por sus escaparates físicos, a categorías especializadas como productos de tecnología automotriz y de consumo. Con esta expansión, han generado una cantidad significativa de datos adicionales y formatos de datos. Estas nuevas plataformas se agregaron sin integrarse en los datos del sistema OLTP o en las infraestructuras de Business Intelligence. Como resultado, se han desarrollado "silos" de almacenes de datos. Además de su deseo de superar la fragmentación de sus conocimientos procesables debido a estos silos de datos, desean agregar capacidades de inteligencia artificial a su conjunto de herramientas para ayudar a hacer crecer su negocio y reducir costos.
 
+En este laboratorio práctico, implementará los pasos para instalar y configurar un clúster de SQL Server 2019 en contenedores basados ​​en Linux en Azure. Con este clúster, usará la virtualización de datos para unificar datos de varias fuentes, analizar los datos, crear e implementar un modelo de aprendizaje automático y finalmente detectar y corregir problemas de cumplimiento de PII y GDPR.
+
+Al final de este laboratorio práctico, podrá crear soluciones para realizar análisis de datos avanzados a escala con clústeres escalables de Big Data de SQL Server 2019.
+
+## Visión general
+Las empresas requieren información casi en tiempo real de conjuntos de datos cada vez más grandes. La ingestión de datos a gran escala requiere un almacenamiento y procesamiento escalables que permitan tiempos de respuesta rápidos. Además de simplemente consultar estos datos, las organizaciones desean un análisis completo e incluso capacidades predictivas sobre sus datos.
+
+Si bien existen soluciones para el procesamiento de datos a gran escala, a menudo se basan en lotes, lo que tiene un retraso en el tiempo de consulta a respuesta. Además, los sistemas por lotes como Hadoop son complicados de configurar y administrar. Los datos operativos a menudo se almacenan en sistemas de bases de datos relacionales en las instalaciones, y unir esos datos a sistemas en la nube a mayor escala expone debilidades de seguridad y arquitecturas frágiles.
